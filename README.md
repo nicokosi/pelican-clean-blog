@@ -28,6 +28,15 @@ HEADER_COLOR = 'black'
 
 you can use any valid css color.
 
+
+### Header logo
+
+To define a custom title logo, set the property ``HEADER_LOGO`` in ``pelicanconf.py``:
+```python
+HEADER_TITLE_LOGO = static/my_logo.png'
+```
+
+
 ### Social URLs
 
 Github, Twitter and Facebook URLs set these properties:
